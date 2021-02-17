@@ -3,8 +3,8 @@
 # Project titel
 Mijn project heet films liken. Ik heb namelijk voor use case 1 gekozen, 'In een verzameling films wil ik een aantal leuke films kunnen bewaren om ze later te bekijken.' 
 
-*[Versie 1](https://aronpelgrim.github.io/frontend-voor-designers-2021/opdracht1/V1/index.html)
-*[Versie 2](https://aronpelgrim.github.io/frontend-voor-designers-2021/opdracht1/V2/index.html)
+⋅⋅*[Versie 1](https://aronpelgrim.github.io/frontend-voor-designers-2021/opdracht1/V1/index.html)
+⋅⋅*[Versie 2](https://aronpelgrim.github.io/frontend-voor-designers-2021/opdracht1/V2/index.html)
 
 Vergeet niet om het formaat naar telefoon te zetten!
 

@@ -1,10 +1,5 @@
 # Frontend voor Designers - opdracht 1: Een Micro-interactie uitwerken en testen
 
-Ontwerp een user interface voor een gegeven use case. Werk je ontwerp uit in HTML, CSS en Javascript om te kunnen testen in een browser.
-
-Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
-
-
 # Project titel
 Mijn project heet films liken. Ik heb namelijk voor use case 1 gekozen, 'In een verzameling films wil ik een aantal leuke films kunnen bewaren om ze later te bekijken.' 
 https://aronpelgrim.github.io/frontend-voor-designers-2021/opdracht1/V2/index.html
@@ -20,6 +15,4 @@ Principe 4: De gebruiker scrolled door de interface en ziet dat de films in een 
 Principe 11: Aan de bovenkant van de pagina wordt duidelijk gemaakt wat de inhoud van de pagina bevat, door middel van een soort banner. Daar direct onder wordt er door een titel laten zien wat soort films er in de carousel staan. Door deze titels worden de carousellen ook duidelijk van elkaar gescheiden.
 
 ## code
-Leg de code uit.
-
-## bronnen
+Er wordt eerst een variabele aangemaakt met een querySelectorAll voor de wish buttons. Met een for loop wordt elke button langsgegaan met een click event waarbij een functie wordt geactiveerd. In deze functie wordt bepaald welke status de wish button heeft en schakelt de tegenovergestelde status in. Hierbij wordt ook de animatie geactiveerd die bij de status hoort. In de onderste functie wordt de hoofdteller bijgewerkt, door de hoeveelheid van de wishlist op dat moment uit de html span te halen. Vervolgens wordt afhankelijk van de parameter uit de vorige functie, gekeken of er bij de nieuwe teller + 1 of - 1 moet.

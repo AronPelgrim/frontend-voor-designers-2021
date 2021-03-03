@@ -1,0 +1,113 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+section,
+article {
+    opacity: 0;
+}
+
+@keyframes boom {
+    0% {
+        transform: scale(.75) translatex(10rem);
+        opacity: .6;
+    }
+
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.visible {
+    animation-name: boom;
+    animation-duration: 600ms;
+    animation-fill-mode: both;
+}
+
+/*Articles workpage*/
+article {
+    text-align: center;
+    width: 70vw;
+    margin: 0 28.5%;
+    word-spacing: 0.2em;
+}
+
+article h2 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    margin-top: 10%;
+    padding: 0 40% 3% 2%;
+}
+
+article p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    text-transform: none;
+    color: black;
+    text-align: center;
+    line-height: 1.9;
+    margin-bottom: 4%;
+    padding: 0 40% 0 2%;
+}
+
+section:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section:nth-of-type(1) img {
+    width: 40vw;
+    margin: 70px 30px 100px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+section:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section:nth-of-type(2) img {
+    width: 15vw;
+    margin: 70px 30px 100px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+section:nth-of-type(3) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section:nth-of-type(3) img {
+    width: 35vw;
+    margin: 70px 30px 100px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+section:nth-of-type(3) img:last-of-type {
+    width: 26vw;
+    margin: 70px 30px 100px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}

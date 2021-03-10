@@ -5,7 +5,6 @@ let options = {
 //Waarnemen of de threshold wordt overschreden, zo ja wordt functie onEntry geactiveerd
 let observer = new IntersectionObserver(onEntry, options);
 //alle sections en artciles van de html wordt in let elements gestopt
-//alle sections en artciles van de html wordt in let elements gestopt
 let elements = document.querySelectorAll('section, article');
 //functie die wordt geactiveerd als de threshold is overschreden, isIntersecting is een boolean die op dat moment true geeft, op dat moment krijgt de section in kwestie class 'visible'
 function onEntry(entry) {
